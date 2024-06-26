@@ -41,7 +41,7 @@ print("Jolly:", jolly)
 print("Superstar:", superstar)
 
 # Chiedi se generare altri numeri
-risposta = input("Vuoi completare un'altro quadro? (y/n) ")
+risposta = input("Vuoi completare un altro quadro? (y/n) ")
 while risposta.lower() == "y":
     numeri = generate_numbers()
     superstar = generate_superstar()
@@ -62,7 +62,7 @@ while risposta.lower() == "y":
     print("Numeri quadro gioco:", numeri)
     print("Jolly:", jolly)
     print("Superstar:", superstar)
-    risposta = input("Vuoi completare un'altro quadro? (y/n) ")
+    risposta = input("Vuoi completare un altro quadro? (y/n) ")
 
 print("")
 print("Buona fortuna!")
